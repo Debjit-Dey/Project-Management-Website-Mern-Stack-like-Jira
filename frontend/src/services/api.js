@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://project-management-website-mern-stack.onrender.com/api",
+  baseURL: "https://project-management-website-backend-nine.vercel.app/api",
 });
 
 api.interceptors.request.use((config) => {
